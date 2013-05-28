@@ -31,4 +31,4 @@
 * [```hail2u/vim-css3-syntax```](https://github.com/hail2u/vim-css3-syntax) - Adds CSS3 syntax support
 * [```Townk/vim-autoclose```](https://github.com/Townk/vim-autoclose) - Automatically closes stuff like parenthesis and sets the cursor in between
 * [```airblade/vim-rooter```](https://github.com/airblade/vim-rooter) - Changes the working directory to the root of the current project
-* [```vim-peepopen```](https://github.com/vim-peepopen) - Vim support for [PeepOpen](https://peepcode.com/products/peepopen)
+* [```vim-peepopen```](https://github.com/topfunky/PeepOpen-EditorSupport/tree/master/vim-peepopen) - Vim support for [PeepOpen](https://peepcode.com/products/peepopen)
