@@ -36,7 +36,8 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'hail2u/vim-css3-syntax'
-"Bundle 'Townk/vim-autoclose'
+Bundle 'Townk/vim-autoclose'
+Bundle 'airblade/vim-rooter'
 Bundle 'vim-peepopen'
 
 filetype on
