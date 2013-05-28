@@ -52,6 +52,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Snippets are activated by Shift+Tab
+let g:snippetsEmu_key = "<S-Tab>"
+
 if has("gui_mac") || has("gui_macvim")
   set guifont=Menlo:h14
 endif
@@ -159,3 +162,6 @@ map <Leader>ct :!ctags -R .<CR>
 " Cucumber navigation commands
 autocmd User Rails Rnavcommand step features/step_definitions -glob=**/* -suffix=_steps.rb
 autocmd User Rails Rnavcommand config config -glob=**/* -suffix=.rb -default=routes
+
+" Enable matchit
+runtime macros/matchit.vim
