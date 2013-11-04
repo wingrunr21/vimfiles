@@ -44,5 +44,6 @@ Bundle 'slim-template/vim-slim'
 Bundle 'ap/vim-css-color'
 Bundle 'tpope/vim-obsession'
 Bundle 'tpope/vim-speeddating'
+Bundle 'jnwhiteh/vim-golang'
 
 filetype on
