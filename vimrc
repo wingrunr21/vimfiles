@@ -166,5 +166,8 @@ autocmd User Rails Rnavcommand config config -glob=**/* -suffix=.rb -default=rou
 " Enable matchit
 runtime macros/matchit.vim
 
-" Powerline
-"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
