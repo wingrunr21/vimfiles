@@ -142,8 +142,8 @@ noremap Q gq
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
 
-" ctrlp setup
-set runtimepath^=~/.vim/bundle/vim-ctrlp
+" fzf setup
+set rtp+=~/.fzf
 
 " vim-rspec mappings
 nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
