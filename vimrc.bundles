@@ -1,19 +1,19 @@
 set nocompatible
 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 
 " Define bundles via Github repos
 Bundle 'wesgibbs/vim-irblack'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'danro/rename.vim'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'scrooloose/syntastic'
+Bundle 'vim-syntastic/syntastic'
 Bundle 'asux/vim-capybara'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-bundler'
